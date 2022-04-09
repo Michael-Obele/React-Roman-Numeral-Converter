@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.converter{
+  width: 60vw;
+  height: 30vh;
+  max-height: fit-content;
+  margin: auto;
+}
+.content{
+  padding-bottom: 5vh;
+}
+.card{
+  align-items: center;
+  justify-content: center;
+}
+.card-body > h4{
+  padding-bottom: 6vh;
+}
