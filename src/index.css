@@ -25,5 +25,5 @@ code {
   justify-content: center;
 }
 .card-body > h4{
-  padding-bottom: 6vh;
+  padding: 20px;
 }
