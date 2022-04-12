@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { converter, convertToRomanNum, convertFromRoman } from './convert';
+import { convertToRomanNum, convertFromRoman } from './convert';
+import NavBar from './NavBar';
 
 function App() {
   const [value, setValue] = useState('');
@@ -17,6 +18,7 @@ function App() {
   console.log(/\D/.test(value) && /\d/.test(value));
   return (
     <div>
+      <NavBar />
       <h1 className='text-center'>Hello World!</h1>
       {/* You can use bg-dark for dark theme */}
       <div className='card converter text-dark bg-light mb-3'>
